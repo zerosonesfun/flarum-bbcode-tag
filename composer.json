@@ -1,8 +1,8 @@
 {
-    "name": "username/flarum-ext-name",
-    "description": "A lovely description.",
+    "name": "zerosonesfun/flarum-bbcode-tag",
+    "description": "Adds a search tag BBcode.",
     "type": "flarum-extension",
-    "keywords": ["discussion", "template"],
+    "keywords": ["discussion", "bbcode"],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
-        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
+        "issues": "https://github.com/zerosonesfun/flarum-bbcode-tag/issues",
+        "source": "https://github.com/zerosonesfun/flarum-bbcode-tag",
         "forum": "https://discuss.flarum.org"
     },
     "homepage": "https://www.wilcosky.com",
@@ -28,15 +28,15 @@
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\ExtensionName\\": "src/"
+            "ZerosOnesFun\\BbcodeTag\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Title",
+            "title": "BBCode - Tag",
             "category": "feature",
             "icon": {
-                "name": "fas fa-",
+                "name": "fas fa-search",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
