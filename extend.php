@@ -1,26 +1,20 @@
 <?php
 
 /*
- * A Flarum extension template for BBCode created by Billy Wilcosky.
+ * This file is part of an extension for Flarum.
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
- * For instructions, please view the README file.
  */
 
 use Flarum\Extend;
-use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
 
 return [
-    (new Extend\Frontend('forum'))
-        ->content(function (Document $document) {
-            $document->head[] = '<link rel="stylesheet" type="text/css" href="/assets/extensions/YOURUSERNAME-nameofextension/styles.css">';
-        }),
-    (new Extend\Formatter)
+        (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[bbcode="{TEXT1}"]{TEXT2}[/bbcode]',
-                '<span class="{TEXT1}">{TEXT2}</span>'
+                '[t]{TEXT100}[/t]',
+                '<a href="/all?q={TEXT100}" class="tagPhrase" title="Search for {TEXT100}">{TEXT100}</a>'
             );
         })
 ];
