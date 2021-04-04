@@ -3,9 +3,9 @@ Tag a word or phrase by using one of the following BBCode. These turn the wrappe
 
 `[t]keyword[/t]` - search forum
 
-`[ht=hashtag]` - search forum (plus # is added]
+`[ht=hashtag]` - search forum (plus # is added)
 
-`[ct=gme]` - cashtag - search stock via Google
+`[ct=gme]` - cashtag - search stock via Google (plus $ is added)
 
 `[g=google search]` - conduct Google search
 
