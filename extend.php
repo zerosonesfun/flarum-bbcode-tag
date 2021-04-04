@@ -18,8 +18,8 @@ return [
             );
 
             $config->BBCodes->addCustom(
-                '[t={TEXT101} pre={TEXT102;optional}]',
-                '<a href="/all?q={TEXT101}" class="tagPhrase" title="Search for {TEXT101}">{TEXT102}{TEXT101}</a>'
+                '[ht={TEXT101}]',
+                '<a href="/all?q={TEXT101}" class="tagPhrase" title="Search for {TEXT101}">#{TEXT101}</a>'
             );
         })
 ];
