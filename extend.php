@@ -13,8 +13,8 @@ return [
         (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[t pre={TEXT103;optional}]{TEXT100}[/t]',
-                '<a href="/all?q={TEXT100}" class="tagPhrase" title="Search for {TEXT100}">{TEXT103}{TEXT100}</a>'
+                '[t]{TEXT100}[/t]',
+                '<a href="/all?q={TEXT100}" class="tagPhrase" title="Search for {TEXT100}">{TEXT100}</a>'
             );
 
             $config->BBCodes->addCustom(
