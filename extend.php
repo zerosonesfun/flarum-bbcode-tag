@@ -22,15 +22,15 @@ return [
             );
             $config->BBCodes->addCustom(
                 '[ct={TEXT102}]',
-                '<a href="https://www.google.com/search?q={TEXT102}+stock" class="tagPhrase-Stock" title="Check on stock {TEXT102}">${TEXT102}</a>'
+                '<a href="https://www.google.com/search?q={TEXT102}+stock" class="tagPhrase-Stock" title="Check on stock {TEXT102}" rel="ugc noopener nofollow" target="_blank">${TEXT102}</a>'
             );
             $config->BBCodes->addCustom(
                 '[g={TEXT103}]',
-                '<a href="https://www.google.com/search?q={TEXT103}" class="tagPhrase-Google" title="Google {TEXT103}">{TEXT103}</a>'
+                '<a href="https://www.google.com/search?q={TEXT103}" class="tagPhrase-Google" title="Google {TEXT103}" rel="ugc noopener nofollow" target="_blank">{TEXT103}</a>'
             );
             $config->BBCodes->addCustom(
                 '[ts={TEXT104}]',
-                '<a href="https://twitter.com/search/?q={TEXT104}" class="tagPhrase-Twitter" title="Twitter search for {TEXT104}">{TEXT104}</a>'
+                '<a href="https://twitter.com/search/?q={TEXT104}" class="tagPhrase-Twitter" title="Twitter search for {TEXT104}" rel="ugc noopener nofollow" target="_blank">{TEXT104}</a>'
             );
 
         })
