@@ -1,6 +1,6 @@
 {
     "name": "zerosonesfun/flarum-bbcode-tag",
-    "description": "Adds a search tag BBCode.",
+    "description": "Keyword, hashtag, cashtag, Google, and Twitter search words/phrases.",
     "type": "flarum-extension",
     "keywords": ["discussion", "bbcode"],
     "license": "MIT",
