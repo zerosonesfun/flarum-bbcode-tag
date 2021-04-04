@@ -1,6 +1,11 @@
 # Flarum BBCode Tag
+Tag a word or phrase by using one of the following BBCode. These turn the wrapped text into a search link.
 
-Adds a [t]keyword[/t] BBCode to Flarum. Turns wrapped text into a search link.
+`[t]keyword[/t]` - search forum
+`[ht=hashtag]` - search forum (plus # is added]
+`[ct=gme]` - cashtag - search stock via Google
+`[g=google search]` - conduct Google search
+`[ts=search tweets]` - search Twitter
 
 ## Install & Update
 `composer require zerosonesfun/flarum-bbcode-tag`
