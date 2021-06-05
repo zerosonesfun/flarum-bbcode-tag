@@ -14,11 +14,11 @@ return [
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
                 '[t]{TEXT100}[/t]',
-                '<a href="/all?q={TEXT100}" class="tagPhrase" title="Search for {TEXT100}">{TEXT100}</a>'
+                '<a href="/?q={TEXT100}" class="tagPhrase" title="Search for {TEXT100}">{TEXT100}</a>'
             );
             $config->BBCodes->addCustom(
                 '[ht={TEXT101}]',
-                '<a href="/all?q={TEXT101}" class="tagPhrase-Hashtag" title="Search for {TEXT101}">#{TEXT101}</a>'
+                '<a href="/?q={TEXT101}" class="tagPhrase-Hashtag" title="Search for {TEXT101}">#{TEXT101}</a>'
             );
             $config->BBCodes->addCustom(
                 '[ct={TEXT102}]',
